@@ -20,6 +20,7 @@
     <link href="css/bookmark.css" rel="stylesheet">
     <link href="css/menu.css" rel="stylesheet">
     <link href="css/gallery.css" rel="stylesheet">
+    <link href="css/contact-form.css" rel="stylesheet">
 </head>
 
 <body>
@@ -422,6 +423,38 @@
         <h2 class="bookmark__header">Kontakt</h2>
         <p class="bookmark__description">Porozmawiaj z nami lub zarezerwuj stolik</p>
     </section>
+
+    <form class="contact-form">
+        <div class="container container--smaller">
+            <div class="contact-form__info">
+                <div class="contact-form__info-item">
+                    <img src="images/icons/envelope.svg" alt="e-mail" class="contact-form__info-icon">
+                    <a href="mailto:kontakt@restauracja.pl" class="contact-form__info-link">
+                        kontakt@restauracja.pl
+                    </a>
+                </div>
+                <div class="contact-form__info-item">
+                    <img src="images/icons/phone.svg" alt="telefon" class="contact-form__info-icon">
+                    <a href="tel:666555444" class="contact-form__info-link">
+                        666 555 444
+                    </a>
+                </div>
+            </div>
+            <p class="contact-form__header">
+                Jeśli nie znalazłeś na naszej stronie informacji, których potrzebujesz,<br> 
+                wyślij formularz kontaktowy lub zadzwoń.<br>
+                Chętnie z Tobą porozmawiamy i odpowiemy na wszelkie pytania.
+            </p>
+            <div class="contact-form__fields">
+                <input name="name" class="contact-form__field" required placeholder="Imię i Nazwisko">
+                <input name="email" type="email" class="contact-form__field" required placeholder="Adres e-mail">
+                <textarea name="content" class="contact-form__field contact-form__field--full-row" required 
+                    placeholder="Treść wiadomości" rows="10"></textarea> 
+            </div>
+            <button class="contact-form__submit-button">Wyślij</button>
+        </div>
+    </form>
+
     <section class="bookmark bookmark--route" id="route">
         <h2 class="bookmark__header">Jak dojechać</h2>
         <p class="bookmark__description">Łatwo nas znajdziesz</p>
