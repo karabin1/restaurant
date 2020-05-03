@@ -17,11 +17,11 @@
 }
 
 .bookmark--contact {
-    background-image: url("./../images/bookmarks/contact.jpg");
+    background-image: url("./images/bookmarks/contact.jpg");
 }
 
 .bookmark--route {
-    background-image: url("./../images/bookmarks/route.jpg");
+    background-image: url("images/bookmarks/route.jpg");
 }
 
 .bookmark::after {
